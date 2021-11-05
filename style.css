@@ -47,20 +47,39 @@ table, th , td{
     border-collapse: collapse;
 }
 .insta{
-    width: 41%;
+    width: 25%;
     object-fit: cover;
     float: left;
-    height: 41%;
-    margin-top: 5.7%;
-    margin-left: 0;
+    height: 25%;
+    margin-top: 3%;
+    margin-left: 8%;
     }
     .email{
-    width: 28%;
+    width: 17%;
     object-fit: cover;
-    height: 28%;
-    margin-top: 6.5%;
+    height: 17%;
+    margin: 0%;
     float: right;
-    margin-right: 3%;
+    margin-top: 3.5%;
+    margin-right: 10%;
+    
+    }
+    .telefon{
+        width: 16.4%;
+        object-fit: cover;
+        float: left ;
+        height: 16.4%;
+        margin: 0%;
+        margin-top: 4.2%;
+        margin-left: 7.2%;
+
+    }
+    hr{
+        display: block;
+        margin-top: 39%;
+        border-color: white;
+        background-color: white;
+
     }
 
 @media(min-width:300px){
@@ -125,6 +144,34 @@ table, th , td{
             margin-left: 12%;
             margin-right: 12%;
         }
+        .insta{
+            width: 16%;
+            object-fit: cover;
+            float: left;
+            height: 16%;
+            margin-top: 3%;
+            margin-left: 21%;
+            }
+            .email{
+            width: 11.5%;
+            object-fit: cover;
+            height: 11.5%;
+            margin: 0%;
+            float: right;
+            margin-top: 3%;
+            margin-right: 22.5%;
+            
+            }
+            .telefon{
+                width: 10.8%;
+                object-fit: cover;
+                float: left ;
+                height: 10.8%;
+                margin: 0%;
+                margin-top: 3.3%;
+                margin-left: 5.8%;
+        
+            }
     }
 @media (min-width: 1700px){
     div{
@@ -179,11 +226,20 @@ table, th , td{
             height: 8%;
             margin-top: 0.3%;
             float: right;
-            margin-right: 30%;
+            margin-right: 30.6%;
+            margin-bottom: 0%;
             }
             h3{
-                margin-top: 41%;
+                margin-top: 2%;
                 text-align: center;
+            }
+            .telefon{
+                width: 7.95%;
+                object-fit: cover;
+                height: 7.95%;
+                margin-top: 0.35%;
+                margin-left: 1%;
+
             }
 
 }
