@@ -4,9 +4,13 @@
 }
 
 body {
-    background: #38383b url(Bilder/Hintergurnd.jpg ) fixed;
+    background: #38383b url(Bilder/Hintergurnd.jpg )fixed;
     background-size: cover;
     margin: 0;
+    background-position: bottom left; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:scroll;
     
 }
 div{
@@ -30,7 +34,7 @@ h3, h2{
     text-align: center;
 }
 h3{
-    margin-top: 30%;
+    margin-top: 8%;
     text-align: center;
 }
 .paddinlr20{
@@ -75,9 +79,10 @@ table, th , td{
 
     }
     hr{
-        display: block;
-        margin-top: 39%;
+        margin-top: 25%;
+        height: 1px;
         border-color: white;
+        border-top: white;
         background-color: white;
 
     }
@@ -123,6 +128,7 @@ table, th , td{
         margin-left: 10%;
         
     }
+
 }
 @media (min-width: 500px){
     .Bild{
@@ -174,6 +180,12 @@ table, th , td{
             }
     }
 @media (min-width: 1700px){
+    body {
+        background: #38383b url(Bilder/Hintergurnd.jpg )no-repeat top center fixed;
+        background-size: cover;
+        margin: 0;
+        
+    }
     div{
         width: 50%;
         margin: 0px auto;
@@ -226,7 +238,7 @@ table, th , td{
             height: 8%;
             margin-top: 0.3%;
             float: right;
-            margin-right: 30.6%;
+            margin-right: 30.5%;
             margin-bottom: 0%;
             }
             h3{
@@ -237,9 +249,17 @@ table, th , td{
                 width: 7.95%;
                 object-fit: cover;
                 height: 7.95%;
-                margin-top: 0.35%;
+                margin-top: 0.38%;
                 margin-left: 1%;
 
+            }
+            hr{
+                margin-top: 39%;
+                height: 1px;
+                border-color: white;
+                border-top: white;
+                background-color: white;
+        
             }
 
 }
