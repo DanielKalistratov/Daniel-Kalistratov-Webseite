@@ -197,13 +197,17 @@ table, th , td{
         margin: 0%;
     }
         .Bild{
-            width: 35%;
+            width: 33%;
             object-fit: cover;
-            height: 330px;
-
+            height: 315px;
+            padding-top: 0%;
+    }
+    .Text{
+       margin-top: 2%; 
     }
     h2{
         text-align: left;
+        margin-top: 5%;
     }
 
     table{
