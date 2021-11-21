@@ -25,10 +25,15 @@ h1{
 p{
     margin-bottom: 0;
 }
+.Text{
+    margin-top: 40%;
+    padding-top: 14%;
+}
 h1 {
-    text-align:center;
     text-shadow: 1px 1px 1px #666666;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 30%;
 }
 h3, h2{
     text-align: center;
@@ -44,11 +49,6 @@ h3{
 .Kontakt{
     text-align: center;
     margin-top: 2%;
-}
-
-table, th , td{
-    border: 2px solid gray;
-    border-collapse: collapse;
 }
 .insta{
     width: 25%;
@@ -86,7 +86,41 @@ table, th , td{
         background-color: white;
 
     }
+    nav{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #24252A;
+        
 
+
+    }
+    .logo{
+        padding-bottom: 0%;
+        padding-top: 0%;
+        color:rgb(204, 204, 204);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .navlinks{
+        display: flex;
+        justify-content: space-around;
+        width: 32%;
+        padding-left: 0%;
+    }
+    .navlinks li{
+        list-style: none;
+    }
+    .navlinks a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+    }
 @media(min-width:300px){
     .Bild{
         width: 80%;
@@ -195,6 +229,7 @@ table, th , td{
         float: left;
         padding: 1.5%; 
         margin: 0%;
+        margin-top: 2%;
     }
         .Bild{
             width: 33%;
@@ -258,7 +293,7 @@ table, th , td{
 
             }
             hr{
-                margin-top: 39%;
+                margin-top: 46.5%;
                 height: 1px;
                 border-color: white;
                 border-top: white;
