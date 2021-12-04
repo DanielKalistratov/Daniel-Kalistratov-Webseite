@@ -31,9 +31,7 @@ p{
 }
 h1 {
     text-shadow: 1px 1px 1px #666666;
-    margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 30%;
 }
 h3, h2{
     text-align: center;
@@ -94,22 +92,23 @@ h3{
         justify-content: space-around;
         align-items: center;
         background-color: #24252A;
-        
-
-
     }
+
     .logo{
         padding-bottom: 0%;
         padding-top: 0%;
-        color:rgb(204, 204, 204);
+        color:rgb(211, 211, 211);
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 14px;
+        margin-left: 5%;
+        padding-bottom: 15px;
+        
     }
     .navlinks{
         display: flex;
         justify-content: space-around;
-        width: 32%;
+        width: 30%;
         padding-left: 0%;
     }
     .navlinks li{
@@ -140,6 +139,23 @@ h3{
         margin: auto;
         
     }
+    .navlinks{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding-left: 0%;
+        position: absolute;
+        height: 92vh;
+        top: 8vh;
+        background-color: #24252A;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35%;
+        padding-right: 35%;
+        margin-top: 0%;
+
+    }
 
 }
 @media(min-width:400px){
@@ -162,6 +178,18 @@ h3{
         margin-left: 10%;
         
     }
+    .logo{
+        padding-bottom: 0%;
+        padding-top: 0%;
+        color:rgb(211, 211, 211);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+        margin-left: 3%;
+        right: 0px;
+        
+    }
+    
 
 }
 @media (min-width: 500px){
@@ -212,6 +240,7 @@ h3{
                 margin-left: 5.8%;
         
             }
+            
     }
 @media (min-width: 1700px){
     body {
@@ -293,12 +322,50 @@ h3{
 
             }
             hr{
-                margin-top: 46.5%;
+                margin-top: 44%;
                 height: 1px;
                 border-color: white;
                 border-top: white;
                 background-color: white;
         
+            }
+            nav{
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #24252A;
+                
+        
+        
+            }
+            .logo{
+                padding-bottom: 0%;
+                padding-top: 0%;
+                color:rgb(211, 211, 211);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 20px;
+                margin-left: 23.6%;
+                
+            }
+            .navlinks{
+                display: flex;
+                justify-content: space-around;
+                width: 30%;
+                padding-left: 0%;
+                position: relative;
+            }
+            .navlinks li{
+                list-style: none;
+            }
+            .navlinks a{
+                color: white;
+                text-decoration: none;
+                letter-spacing: 1px;
+                
             }
 
 }
