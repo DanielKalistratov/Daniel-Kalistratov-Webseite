@@ -18,64 +18,76 @@ div{
     margin: 3px auto;
     padding: 1.5% 1.25%;
 }
-p{
-    margin-bottom: 0;
-}
-.Text{
-    margin-top: 40%;
-    padding-top: 14%;
-}
-h3, h2{
-    text-align: center;
-}
-h3{
-    margin-top: 8%;
-    text-align: center;
-}
-.paddinlr20{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.Kontakt{
-    text-align: center;
-    margin-top: 2%;
-}
-.insta{
-    width: 25%;
-    object-fit: cover;
-    float: left;
-    height: 25%;
-    margin-top: 3%;
-    margin-left: 8%;
-    }
-    .email{
-    width: 17%;
-    object-fit: cover;
-    height: 17%;
-    margin: 0%;
-    float: right;
-    margin-top: 3.5%;
-    margin-right: 10%;
+
     
+
+@media(min-width:300px){
+    img{
+        padding: 0.5%;
+        margin-left:11.5%;
+        width: 75%;
+        height: 75%;
     }
-    .telefon{
-        width: 16.4%;
+    .Text{
+        margin-left: 4%;
+       margin-right: 1.5%;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    .Text{
+        margin-top: 40%;
+        padding-top: 14%;
+    }
+    h3, h2{
+        text-align: center;
+    }
+    h3{
+        margin-top: 8%;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+    p{
+        margin-top: 2%;
+    }
+    .paddinlr20{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .insta{
+        width: 17%;
         object-fit: cover;
-        float: left ;
-        height: 16.4%;
+        float: left;
+        height: 17%;
+        margin-left: 13.3%;
+        }
+        .email{
+        width: 17%;
+        object-fit: cover;
+        height: 17%;
         margin: 0%;
-        margin-top: 4.2%;
-        margin-left: 7.2%;
-
-    }
-    hr{
-        margin-top: 18%;
-        height: 1px;
-        border-color: white;
-        border-top: white;
-        background-color: white;
-
-    }
+        float: left;
+        margin-right: 10%;
+        
+        }
+        .telefon{
+            width: 16.4%;
+            object-fit: cover;
+            float: left ;
+            height: 16.4%;
+            margin: 0%;
+            margin-left: 10%;
+            margin-right: 10%;
+    
+        }
+        hr{
+            margin-top: 18%;
+            height: 1px;
+            border-color: white;
+            border-top: white;
+            background-color: white;
+    
+        }
     nav{
         margin: 0%;
         padding: 0%;
@@ -85,8 +97,7 @@ h3{
         align-items: center;
         background-color: #24252A;
     }
-
-    /*.logo{
+    .logo{
         padding-bottom: 0%;
         padding-top: 0%;
         color:rgb(211, 211, 211);
@@ -112,32 +123,6 @@ h3{
         letter-spacing: 1px;
         
     }
-    */
-@media(min-width:300px){
-    .Bild{
-        width: 75%;
-        object-fit: cover;
-        height: 270px;
-    }
-    img{
-        padding: 0.5%;
-        margin-left:11.5%;
-    }
-    .Text{
-        margin-left: 4%;
-       margin-right: 1.5%;
-    }
-    .logo{
-        padding-bottom: 0%;
-        padding-top: 0%;
-        color:rgb(211, 211, 211);
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 14px;
-        margin-left: 3%;
-        right: 0px;
-        
-    }
     }
 @media (min-width: 1700px){
     body {
@@ -156,12 +141,10 @@ h3{
         padding: 1.5%; 
         margin: 0%;
         margin-top: 2%;
-    }
-    .Bild{
-            width: 33%;
-            object-fit: cover;
-            height: 315px;
-            padding-top: 0%;
+        width: 33%;
+        object-fit: cover;
+        height: 33%;
+        padding-top: 0%;
     }
     .Text{
        margin-top: 2%; 
@@ -171,39 +154,40 @@ h3{
         margin-top: 34%;
         margin-left: 44%;
     }
-    .email{
-        text-align:left;
-    }
     .insta{
-        width: 11.8%;
+        width: 8%;
         object-fit: cover;
-        height: 11.8%;
+        height: 8%;
         margin-top: 0%;
-        margin-left: 28.5%;
+        margin-left: 32.25%;
         }
         .email{
             width: 8%;
             object-fit: cover;
             height: 8%;
-            margin-top: 0.3%;
-            float: right;
-            margin-right: 30.5%;
+            float: left;
             margin-bottom: 0%;
+            text-align:left;
             }
             h3{
                 margin-top: 2%;
+                margin-bottom: 0.7%;
                 text-align: center;
             }
             .telefon{
-                width: 7.95%;
+                width: 8.1%;
                 object-fit: cover;
-                height: 7.95%;
-                margin-top: 0.38%;
+                height: 8.1%;
                 margin-left: 1%;
+                margin-right: 1%;
+
 
             }
+            p{
+                margin-top: 0%;
+            }
             hr{
-                margin-top: 44%;
+                margin-top: 47%;
                 height: 1px;
                 border-color: white;
                 border-top: white;
@@ -228,14 +212,15 @@ h3{
                 color:rgb(211, 211, 211);
                 text-transform: uppercase;
                 letter-spacing: 1px;
-                font-size: 20px;
+                font-size: 18px;
                 margin-left: 23.5%;
                 margin-top: 15;  
                 margin-bottom: 15; 
             }
             h1{
-                margin-top: 15;
-                margin-bottom: 15;
+                margin-top: 2.3%;
+                margin-bottom: 2.3%;
+
             }
             .navlinks{
                 display: flex;
