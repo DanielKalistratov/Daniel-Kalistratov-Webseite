@@ -103,9 +103,11 @@ div{
         color:rgb(211, 211, 211);
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-size: 14px;
+        font-size: 13px;
         margin-left: 5%;
         padding-bottom: 15px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
         
     }
     .navlinks{
@@ -122,6 +124,10 @@ div{
         text-decoration: none;
         letter-spacing: 1px;
         
+    }
+    h1{
+        margin-bottom: 5%;
+        margin-top: 4%;
     }
     }
 @media (min-width: 1700px){
